@@ -16,17 +16,17 @@ export default function Page() {
       "Are you sure?",
       "What if I asked really nicely?",
       "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
-      "But :*(",
+      "With a oreo sundae on top",
+      "What about a matcha latte",
+      "PLEASE BUBBY",
+      "But :(",
       "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
+      "Yep i'm dead",
+      "ok ur talking to raichu's ghost",
       "please babe",
       ":((((",
       "PRETTY PLEASE",
-      "Estoy muerto",
+      "제발",
       "No :(",
     ];
 
@@ -37,14 +37,14 @@ export default function Page() {
     <div className="-mt-16 flex h-screen flex-col items-center justify-center">
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div>
+          <img src="https://media.tenor.com/ir-_bntmpAgAAAAi/cocopry-stich.gif"/>
+          <div className="my-4 text-4xl font-bold">YAYYYYYY!!! I love you forever bubby!! :)</div>
         </>
       ) : (
         <>
           <img
             className="h-[200px]"
-            src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
+            src="https://media.tenor.com/pNtt-NRPEfMAAAAj/heart-stitch.gif" 
           />
           <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
           <div className="flex items-center">
